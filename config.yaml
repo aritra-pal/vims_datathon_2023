@@ -1,0 +1,17 @@
+
+
+path: /home/aritra/datathon_2023/yolov8/dataset  # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: val/images  # val images (relative to 'path') 
+test: test/images  # test images (optional)
+
+# Classes
+names:
+  0: none
+  1: Crane
+  2: Excavator
+  3: Bulldozer
+  4: Scraper
+  5: Truck
+  6: Compactor
+  7: worker
